@@ -1,3 +1,57 @@
 h1 {
   text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.food {
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 5px;
+}
+
+a {
+  display: block;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.navigation-links {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.links {
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: rgb(90, 90, 238);
+  box-shadow: grey;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.email {
+  color: blue;
+  text-decoration: underline;
 }
